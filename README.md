@@ -3,9 +3,9 @@
 Инструкция:
 Подключите файл ym-flip.js
  
-Оберните тэг <img> и следующий за ним <p> в <div> c классом flip-right или другим перечисленным ниже, как в примере.
+Оберните тэг <code><img></code> и следующий за ним <p> в <div> c классом flip-right или другим перечисленным ниже, как в примере.
 При наведении курсора на изображения будет срабатывать flip-effect.
-Доступные классы:
+Доступные классы: <br>
 flip-right - horizontal right flip <br>
 flip-left - horizontal left flip <br>
 flip-down - vertical down flip <br>
