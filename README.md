@@ -6,10 +6,10 @@
 Оберните тэг "img" и следующий за ним "p" в "div" c классом flip-right или другим перечисленным ниже, как в примере.
 При наведении курсора на изображения будет срабатывать flip-effect.
 Доступные классы: <br>
-flip-right - horizontal right flip <br>
-flip-left - horizontal left flip <br>
-flip-down - vertical down flip <br>
-flip-up - vertical up flip <br>
+flip-right<br>
+flip-left<br>
+flip-down<br>
+flip-up<br>
 
 Пример:
 <div class="flip-right">
