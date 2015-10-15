@@ -1,4 +1,4 @@
-"ym-flip.js" - the plug-in for creating flip effect of your images on a web-page.
+"ym-flip.js" - the plug-in for creating 3D flip effect of your images on a web-page.
 
 Инструкция:
 Подключите файл ym-flip.js

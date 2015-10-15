@@ -1,18 +1,3 @@
-/*Инструкция:
- * Подключите файл gr-flip.js
- 
- * Добавьте в html
-    <div class="flip-right">
-        <img src="http://placehold.it/250x350">
-        <p>Some text</p>
-    </div>
-    
-    flip-right - horizontal right
-    flip-left - horizontal left
-    flip-down - vertical down
-    flip-up - vertical up
- */
-
 $(function(){
     $(".flip-right").wrap('<div class="pic-wrap"></div>');
     $(".pic-wrap").css({
