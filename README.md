@@ -10,9 +10,3 @@ flip-right<br>
 flip-left<br>
 flip-down<br>
 flip-up<br>
-
-Пример:
-<div class="flip-right">
-<img src="http://placehold.it/150x150">
-<p>Some text</p>
-</div>
