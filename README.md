@@ -5,10 +5,12 @@ The plug-in for creating flip effect of your images on a web-page.
 Подключите файл ym-flip.js
  
 Добавьте в html:
+<code>
     <div class="flip-right">
         <img src="http://placehold.it/250x350">
         <p>Some text</p>
     </div>
+</code>
 
 flip-right - horizontal right flip
 flip-left - horizontal left flip
