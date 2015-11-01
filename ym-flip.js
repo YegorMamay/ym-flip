@@ -1,8 +1,13 @@
 $(function(){
+    var widthRight = $(".flip-right").data("width");
+    var heightRight = $(".flip-right").data("height");
+    var colorRight = $(".flip-right").data("color");
+    var bgRight = $(".flip-right").data("bg");
+	
     $(".flip-right").wrap('<div class="pic-wrap"></div>');
     $(".pic-wrap").css({
-        "width": "250px",
-        "height": "250px",
+        "width": widthRight,
+        "height": heightRight,
         "perspective": "1000px"
         });
     $(".flip-right").css({
@@ -24,10 +29,9 @@ $(function(){
         "position": "absolute",
         "width": "100%",
         "height": "100%",
-        "color": "black",
-        "padding": "10px",
+        "color": colorRight,
         "text-align": "center",
-        "background-color": "lightgray",
+        "background-color": bgRight,
         "transform": "rotateY(180deg)"
         });
     $(".flip-right").hover(
@@ -38,13 +42,17 @@ $(function(){
         $(this).css({"transform": "rotateY(0deg)"});
         }
     );
-});
 
-$(function(){
+
+    var widthLeft = $(".flip-left").data("width");
+    var heightLeft = $(".flip-left").data("height");
+    var colorLeft = $(".flip-left").data("color");
+    var bgLeft = $(".flip-left").data("bg");
+    
     $(".flip-left").wrap('<div class="pic-wrap"></div>');
     $(".pic-wrap").css({
-        "width": "250px",
-        "height": "250px",
+        "width": widthLeft,
+        "height": heightLeft,
         "perspective": "1000px"
         });
     $(".flip-left").css({
@@ -66,11 +74,10 @@ $(function(){
         "position": "absolute",
         "width": "100%",
         "height": "100%",
-        "color": "black",
-        "padding": "10px",
+        "color": colorLeft,
         "text-align": "center",
-        "background-color": "lightgray",
-        "transform": "rotateY(180deg)"
+        "background-color": bgLeft,
+        "transform": "rotateY(-180deg)"
         });
     $(".flip-left").hover(
         function(){
@@ -78,15 +85,17 @@ $(function(){
         },
         function(){
         $(this).css({"transform": "rotateY(0deg)"});
-        }
-    );
-});
+        });
 
-$(function(){
+    var widthDown = $(".flip-down").data("width");
+    var heightDown = $(".flip-down").data("height");
+    var colorDown = $(".flip-down").data("color");
+    var bgDown = $(".flip-down").data("bg");
+    
     $(".flip-down").wrap('<div class="pic-wrap"></div>');
     $(".pic-wrap").css({
-        "width": "250px",
-        "height": "250px",
+        "width": widthDown,
+        "height": heightDown,
         "perspective": "1000px"
         });
     $(".flip-down").css({
@@ -108,11 +117,10 @@ $(function(){
         "position": "absolute",
         "width": "100%",
         "height": "100%",
-        "color": "black",
-        "padding": "10px",
+        "color": colorDown,
         "text-align": "center",
-        "background-color": "lightgray",
-        "transform": "rotateX(180deg)"
+        "background-color": bgDown,
+        "transform": "rotateX(-180deg)"
         });
     $(".flip-down").hover(
         function(){
@@ -120,15 +128,17 @@ $(function(){
         },
         function(){
         $(this).css({"transform": "rotateX(0deg)"});
-        }
-    );
-});
-
-$(function(){
+        });
+    
+    var widthUp = $(".flip-up").data("width");
+    var heightUp = $(".flip-up").data("height");
+    var colorUp = $(".flip-up").data("color");
+    var bgUp = $(".flip-up").data("bg");
+    
     $(".flip-up").wrap('<div class="pic-wrap"></div>');
     $(".pic-wrap").css({
-        "width": "250px",
-        "height": "250px",
+        "width": widthUp,
+        "height": heightUp,
         "perspective": "1000px"
         });
     $(".flip-up").css({
@@ -150,10 +160,9 @@ $(function(){
         "position": "absolute",
         "width": "100%",
         "height": "100%",
-        "color": "black",
-        "padding": "10px",
+        "color": colorUp,
         "text-align": "center",
-        "background-color": "lightgray",
+        "background-color": bgUp,
         "transform": "rotateX(180deg)"
         });
     $(".flip-up").hover(
@@ -162,6 +171,5 @@ $(function(){
         },
         function(){
         $(this).css({"transform": "rotateX(0deg)"});
-        }
-    );
+        });
 });
