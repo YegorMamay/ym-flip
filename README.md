@@ -13,6 +13,7 @@ data-bg="black"
 
 При наведении курсора на изображения будет срабатывать flip-effect.
 Доступные классы: <br>
+
 flip-right - horizontal right flip <br>
 flip-left - horizontal left flip <br>
 flip-down - vertical down flip <br>
@@ -23,3 +24,9 @@ flip-up - vertical up flip <br>
 <img src="http://placehold.it/150x150">
 <p>Some text</p>
 </div>
+
+flip-right<br>
+flip-left<br>
+flip-down<br>
+flip-up<br>
+
