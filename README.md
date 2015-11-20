@@ -13,9 +13,3 @@ data-bg="black"
 
 При наведении курсора на изображения будет срабатывать flip-effect.
 
-Пример:
-<div class="flip-right" data-width="250" data-height="250" data-color="white" data-bg="black">
-<img src="http://placehold.it/150x150">
-<p>Some text</p>
-</div>
-
