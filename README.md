@@ -9,6 +9,7 @@ data-width="250"
 data-height="250"
 data-color="white"
 data-bg="black"
+(Пример: <div class="flip-right" data-width="250" data-height="250" data-color="white" data-bg="gray">)
 Готово!
 
 При наведении курсора на изображения будет срабатывать flip-effect.
