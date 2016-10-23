@@ -14,3 +14,4 @@ data-bg="black"
 
 При наведении курсора на изображения будет срабатывать flip-effect.
 
+http://codepen.io/YegorMamay/pen/jrdwbq
